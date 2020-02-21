@@ -1,0 +1,374 @@
+.error {
+	font-size: small;
+}
+
+td {
+	padding: 5px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.product-row {
+	border-bottom:1px solid white;	
+}
+
+.bg-primary {
+    background-color: #92a4ac;
+}
+
+.form-submit {
+	backrground-color: #d84646
+}
+
+.form-box{
+    width: 40%;
+    margin: 5% auto;
+    text-align:left;
+    border-radius: 5px;
+    border: 1px solid;
+    overflow: hidden;
+    padding-bottom:0;
+}
+
+.form-box form {
+	margin: 2% 5%;
+}
+
+label {
+    display: inline-block;
+}
+
+.form-control {
+    background-color: rgba(255,255,255, .6);
+}
+
+.form-control:hover, .form-control:focus {
+    background-color: #ffffff;
+    border-color: #ca2b2b;
+    box-shadow:none;
+}
+
+#form-submit {
+    width: 30%;
+    border: 1px solid #92a4ac;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+::placeholder {
+    color: rgba(202, 43, 43, 0.48) !important;
+}
+
+.font-bold {
+	font-weight: bold;	
+}
+
+.product-col {
+	width:10%;
+	border-bottom: 1px solid #92a4ac;
+	padding-right: 10px;
+	border-right: 1px solid #92a4ac
+}
+
+.product-col img {
+	width:100% !important;	
+}
+
+.product-info-row {
+	padding-left: 10px;
+	padding-bottom: 0;
+	font-size: 16px;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.store-row {
+    height: 40%;
+    margin: 2% 0;
+    flex-wrap: wrap;
+}
+
+.item-box {
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px;
+    height: 30vmax;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+}
+
+img {
+    object-fit: contain;
+    margin: 1px auto;
+    max-height: 100%;
+}
+
+
+.product-list {
+	margin: 0 auto;
+}
+
+.product-list th {
+	font-weight: bold;
+	font-size: 16px;
+	color: #e8e8e8;
+	text-align: center;
+}
+
+.product-list td {
+	font-size: 16px;
+	color: #ca2b2b;
+	text-align: center;
+}
+
+.product-list td input {
+	vertical-align: middle;
+}
+
+.user-list th {
+	font-weight: bold;
+	font-size: 16px;
+	color: #e8e8e8;
+	text-align: center;
+}
+
+.user-list td {
+	font-size: 16px;
+	color: #ca2b2b;
+	text-align: center;
+}
+
+.user-list td input {
+	vertical-align: middle;
+}
+
+.product-list tbody tr:nth-child(even) {background-color: #43484d;}
+.product-list tbody tr:nth-child(odd) {background-color: #343a40;}
+
+.user-list tbody tr:nth-child(even) {background-color: #43484d;}
+.user-list tbody tr:nth-child(odd) {background-color: #343a40;}
+
+.dataTables_wrapper .dataTables_info {
+	color: #888 !important;
+}
+
+.dataTables_wrapper .dataTables_length {
+	color: #888 !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+	color: #888 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	background-color: #494c4e !important;
+	color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:: hover
+
+
+body {
+    height: auto;
+    min-height: 100% !important;
+}
+
+.bg-primary {
+    background-color: #92a4ac;
+}
+
+.product-table {
+    margin-top: 3%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.product-table th{
+    color: white;
+    background-color: #677e74;
+    text-align: center;
+}
+
+.product-table td {
+    padding: 1%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product-table tr:nth-child(even) {background-color: #f2f2f2;}
+
+.user-table {
+    margin-top: 3%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.user-table th{
+    color: white;
+    background-color: #677e74;
+    text-align: center;
+}
+
+.user-table td {
+    padding: 1%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;}
+
+.form-box{
+    width: 40%;
+    margin: 5% auto;
+    border-radius: 5px;
+    border: 1px solid;
+    overflow: hidden;
+    padding-bottom:0;
+}
+
+form {
+    padding: 5% 3%;
+}
+
+label {
+    display: inline-block;
+}
+
+.form-control {
+    background-color: rgba(255,255,255, .6);
+}
+
+.form-control:hover, .form-control:focus {
+    background-color: #ffffff;
+    border-color: #677e74;
+    box-shadow:none;
+}
+
+#form-submit {
+    width: 30%;
+    border: 1px solid #92a4ac;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+::placeholder {
+    color: rgba(103, 126, 116, .5) !important;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.store-row {
+    height: 40%;
+    margin: 2% 0;
+    flex-wrap: wrap;
+}
+
+.item-box {
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+}
+
+.image-row img {
+    object-fit: contain;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.item-box .image-row{
+    padding: 1% 0;
+    margin: 0 auto;
+    height: 70%;
+    border-bottom: 2px solid;
+}
+
+.item-box .item-info-row {
+    display:table;
+    border-bottom: 2px solid;
+    margin: 0 auto;
+    height: 15%;
+}
+
+.item-box .item-select-row {
+    display:table;
+    margin:0;
+    padding: 1% 0;
+    width:100%;
+}
+
+.item-box .item-select-col {
+    display:table-cell;
+    margin: 1% auto;
+    padding:0;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.item-box .item-info-col {
+    display:table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.navbar-brand:hover {
+    background-color: transparent;
+}
+
+.notification-box{
+	position: fixed;
+	display:none;
+	border: 1px solid black;
+	border-radius: 3px;
+	top: 10%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	background-color: #ca2b2b;
+	padding: 2px;
+	
+	z-index: 10;
+}
+
+.show-product-list td {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+.show-product-list td {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+.show-product-list tbody tr:nth-child(even) {background-color: #43484d;}
+.show-product-list tbody tr:nth-child(odd) {background-color: #343a40;}
